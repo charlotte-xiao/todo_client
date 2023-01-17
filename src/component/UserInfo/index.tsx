@@ -14,10 +14,10 @@ const LoginButton = styled.input`
   font-size: medium;
   font-weight: bolder;
   height: 3rem;
-  width: 8rem;
+  width: 5rem;
   line-height: 3rem;
   padding: 0 1rem;
-  margin: 0.5rem 2rem 0.5rem 0;
+  margin: 0.5rem 0;
   border: 0;
   border-radius: 1rem;
 
@@ -64,7 +64,7 @@ export const UserInfo = ({ isLogin, name, avatar }: LoginInfoProps) => {
           <Header src={LoginOutImg} alt="login out" onClick={handleLoginOut} />
         </>
       ) : (
-        <LoginButton onClick={handleLogin} defaultValue="Github Login" />
+        <LoginButton onClick={handleLogin} defaultValue="Login In" />
       )}
     </>
   );

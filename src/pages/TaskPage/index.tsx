@@ -10,7 +10,7 @@ import { TOKEN } from "../../constants/Commom";
 
 const Content = styled.div`
   background-color: white;
-  width: 60vh;
+  max-width: 35rem;
   margin: 0 auto;
   padding: 2rem;
   border-radius: 3rem;
