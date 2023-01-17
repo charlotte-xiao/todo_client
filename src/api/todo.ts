@@ -36,8 +36,7 @@ const createTodo = createAsyncThunk(
       title: task.name,
       description: "description",
       status: "ACTIVE",
-      startDate: "2020-01-01",
-      dueDate: "2023-01-01",
+      expireTime: "2020-01-01",
     });
     const formatData = {
       id: data._id,
