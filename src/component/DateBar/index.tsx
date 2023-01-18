@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const NowDate = styled.div`
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #495862;
   text-align: left;
 `;

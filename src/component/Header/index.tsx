@@ -15,7 +15,7 @@ const Section = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   background: linear-gradient(0.25turn, #c21500, #ffc500);
   -webkit-background-clip: text;
@@ -42,7 +42,7 @@ export const HeaderComponent: FunctionComponent = () => {
 
   return (
     <Section>
-      <Title>Thoughtodos!</Title>
+      <Title>Thoughtodo</Title>
       <UserInfo isLogin={isLogin} avatar={user.avatar} />
     </Section>
   );

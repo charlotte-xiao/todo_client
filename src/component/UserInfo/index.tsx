@@ -14,9 +14,9 @@ const LoginButton = styled.input`
   font-size: medium;
   font-weight: bolder;
   height: 3rem;
-  width: 5rem;
+  width: 4rem;
   line-height: 3rem;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   margin: 0.5rem 0;
   border: 0;
   border-radius: 1rem;
@@ -64,7 +64,7 @@ export const UserInfo = ({ isLogin, avatar }: LoginInfoProps) => {
           <Header src={LoginOutImg} alt="login out" onClick={handleLoginOut} />
         </>
       ) : (
-        <LoginButton onClick={handleLogin} defaultValue="Login In" />
+        <LoginButton onClick={handleLogin} defaultValue="Login" />
       )}
     </>
   );
