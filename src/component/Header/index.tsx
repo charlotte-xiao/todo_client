@@ -43,7 +43,7 @@ export const HeaderComponent: FunctionComponent = () => {
   return (
     <Section>
       <Title>Thoughtodos!</Title>
-      <UserInfo isLogin={isLogin} name={user.name} avatar={user.avatar} />
+      <UserInfo isLogin={isLogin} avatar={user.avatar} />
     </Section>
   );
 };

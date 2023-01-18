@@ -37,11 +37,11 @@ const Header = styled(Img)`
 
 type LoginInfoProps = {
   isLogin: boolean;
-  name: string;
+  // name: string;
   avatar: string;
 };
 
-export const UserInfo = ({ isLogin, name, avatar }: LoginInfoProps) => {
+export const UserInfo = ({ isLogin, avatar }: LoginInfoProps) => {
   const dispatch = useDispatch();
   const handleLogin = () => {
     window.location.href = GITHUB_LOGIN_URL;
