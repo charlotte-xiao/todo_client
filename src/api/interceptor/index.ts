@@ -7,7 +7,7 @@ export const setUnLogin = () => {
 };
 
 const axiosInstance = axios.create({
-  timeout: 3000,
+  timeout: 5000,
 });
 
 axiosInstance.interceptors.request.use(
