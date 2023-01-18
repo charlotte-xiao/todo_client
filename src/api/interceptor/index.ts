@@ -33,10 +33,13 @@ axiosInstance.interceptors.response.use(
         case 401:
           alert(err.response.data.message);
           setUnLogin();
+          location.reload();
           break;
         default:
-          console.log("unknown error~");
+          alert(err.response.data.message);
       }
+    } else {
+      alert(err.message + "(请刷新重试～)");
     }
     return Promise.reject(err);
   }
