@@ -31,9 +31,9 @@ const Header = styled(Img)`
   margin: 0.5rem 0;
 `;
 
-const Hello = styled.div`
-  margin-right: 1rem;
-`;
+// const Hello = styled.div`
+//   margin-right: 1rem;
+// `;
 
 type LoginInfoProps = {
   isLogin: boolean;
@@ -59,7 +59,7 @@ export const UserInfo = ({ isLogin, name, avatar }: LoginInfoProps) => {
     <>
       {isLogin ? (
         <>
-          <Hello>{`Hi,${name} ～`}</Hello>
+          {/*<Hello>{`Hi,${name} ～`}</Hello>*/}
           <Header src={avatar} alt="header" />
           <Header src={LoginOutImg} alt="login out" onClick={handleLoginOut} />
         </>
