@@ -20,7 +20,7 @@ const Title = styled.div`
   background: linear-gradient(0.25turn, #c21500, #ffc500);
   -webkit-background-clip: text;
   color: transparent;
-  padding-left: 6rem;
+  padding-left: 3rem;
   flex: 1;
 `;
 

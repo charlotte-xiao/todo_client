@@ -15,7 +15,7 @@ const ShowBox = styled.div`
 
   div {
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: darkgray;
     flex: 1;
     text-align: left;
@@ -25,14 +25,16 @@ const ShowBox = styled.div`
 const Button = styled.input`
   color: #7f95a3;
   background-color: white;
-  font-size: medium;
+  font-size: 0.8rem;
   font-weight: bolder;
   height: 2rem;
   line-height: 2rem;
   padding: 0 0.5rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   border: 0;
   border-radius: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
   &.is_active {
     color: white;
