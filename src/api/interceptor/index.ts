@@ -40,6 +40,7 @@ axiosInstance.interceptors.response.use(
       }
     } else {
       alert(err.message + "(请刷新重试～)");
+      location.assign("/");
     }
     return Promise.reject(err);
   }
